@@ -13,4 +13,4 @@
     start - Check if bot is alive
     help - Send help message
     addprincipal - Adds a user with 'Principal' privilages
-    killprincipal - Remove the user's 'Principal' privilages
+    removeprincipal - Remove the user's 'Principal' privilages

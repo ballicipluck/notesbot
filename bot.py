@@ -32,7 +32,7 @@ def add_princi(client, message):
         return
     Config.PRINCIPAL_ID.append(id_to_add) # Add the id to the Global Variable
 
-@bot.on_message(filters.command(['killprincipal']) & filters.chat(chats = Config.ADMIN_ID))
+@bot.on_message(filters.command(['removeprincipal']) & filters.chat(chats = Config.ADMIN_ID))
 def add_princi(client, message):
     try: # If empty command was passed
         id_to_add = message.command[1]
