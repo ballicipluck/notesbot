@@ -2,3 +2,5 @@ config.py
 .git/
 notesbot.session
 __pycache__/
+bot1.py
+testBot1.session
